@@ -3,7 +3,12 @@ name: Agrupaciones y graficaciones
 locale: es
 type: learning
 beta: false
+teacher_info: ''
 language: python3
 id_format: "%05d"
-order: []
+order:
+- 1
+- 2
+- 3
+- 4
 private: false

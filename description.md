@@ -1,1 +1,1 @@
-La información en formato tabular es definitivamente muy útil, pero en ocasiones necesitaremos un cambio de enfoque sobre los datos que tenemos. Por eso, en esta lección aprenderemos a agrupar los datos y visualizarlos en forma de gráficos. :bar_chart:
+La información en formato tabular es definitivamente muy útil, pero en ocasiones necesitaremos un cambio de enfoque sobre los datos con que contamos. Por eso, en esta lección aprenderemos a agrupar los datos y visualizarlos en forma de gráficos. :bar_chart:

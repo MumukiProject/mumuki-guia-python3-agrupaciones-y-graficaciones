@@ -1,0 +1,24 @@
+---
+locale: es
+tags: []
+layout: input_bottom
+editor: single_choice
+type: problem
+extra_visible: false
+language: text
+teacher_info: ''
+manual_evaluation: false
+choices:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Da error
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Muestra un gráfico de línea
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Muestra un gráfico de barras
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Muestra un gráfico de torta
+  checked: false
+name: Una imagen en pocas palabras
