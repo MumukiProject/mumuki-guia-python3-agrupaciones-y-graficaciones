@@ -2,10 +2,23 @@
 locale: es
 tags: []
 layout: input_bottom
-editor: code
+editor: single_choice
 type: problem
 extra_visible: false
+language: text
 teacher_info: ''
 manual_evaluation: false
-choices: []
+choices:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: 'No'
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Sí, es posible hacerlo usando `cines.value_counts("tipo_gestion")`
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Sí, es posible hacerlo usando `cines["Pantallas"].sum()`
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Sí, es posible hacerlo usando `cines.value_counts("tipo_gestion").sum()`
+  checked: false
 name: "¡Agrúpense un poco!"
