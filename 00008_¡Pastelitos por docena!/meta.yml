@@ -1,0 +1,26 @@
+---
+locale: es
+tags: []
+layout: input_bottom
+editor: multiple_choice
+type: problem
+extra_visible: false
+language: text
+teacher_info: ''
+manual_evaluation: false
+choices:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`plot.barh` permite realizar gráficos de torta"
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`plot.pie` permite realizar gráficos de torta"
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`value_counts` también devuelve un `Series` y por ello es posible usar su
+    resultado para hacer gráficos"
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: al graficar, el orden de los valores dentros de un `Series` es irrelevante
+    y no tiene impacto en el gráfico resultante
+  checked: false
+name: "¡Pastelitos por docena!"
