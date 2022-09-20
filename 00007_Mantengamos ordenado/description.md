@@ -28,4 +28,4 @@ Name: Pantallas, dtype: int64
 :eyes: Notá que aunque `sort_values` devuelve un `DataFrame` al aplicarlo a un `DataFrame`,  si se aplica sobre un `Series`, devuelve… ¡otro `Series`!
 
 
-> Ahora te toca a vos. Escribí una expresión que devuelva las tres provincias con mayor promedio de butacas.
+> ¡Ahora te toca a vos! Escribí una expresión que devuelva las tres provincias con mayor promedio de butacas.
