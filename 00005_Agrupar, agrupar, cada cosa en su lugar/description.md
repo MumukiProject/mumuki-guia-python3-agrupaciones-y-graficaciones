@@ -16,7 +16,7 @@ Si quisiéramos saber cuál es el valor total de infracciones de cada patente, d
 
 
 |patente|infraccion||
-|----|---|--|
+|----|---|---|
 |`ab16`|100|(primer grupo)|
 | |200|
 | |200|
@@ -29,7 +29,7 @@ Si quisiéramos saber cuál es el valor total de infracciones de cada patente, d
 ... y luego, por cada grupo, realizar la sumatoria de la columna `infraccion`:
 
 |patente|infraccion||
-|----|---|--|
+|----|---|---|
 |`ab16`|500|`(= 100 + 200 + 200)`|
 |`xy40`|350|`(= 200 + 150)`|
 |`mm12`|150|`(= 150)`|
