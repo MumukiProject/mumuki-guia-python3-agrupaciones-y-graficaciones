@@ -1,0 +1,1 @@
+Recordá que `sort_values` puede tomar por parámetro la opción `ascending=False`. Y en caso de que lo estuvieras pensando, sí, los `Series` también soportan las operaciones `head` y `tail` que vimos anteriormente. 
