@@ -8,8 +8,3 @@ Los datos, además, están discriminados por género, es decir, que en lugar de 
 > empleo.plot.line(x="anio")
 > ```
 >
-> * El desempleo no varía a lo largo de los diferente años
-> * Las mujeres presentan siempre una mayor tasa de desempleo que los hombres
-> * Las mujeres presentan siempre una menor tasa de desempleo que los hombres
-> * Las mujeres presentan siempre la misma tasa de desempleo que los hombres
-> * Las mujeres presentan a veces mayores tasas de desempleo que los hombres y otras veces, menores
