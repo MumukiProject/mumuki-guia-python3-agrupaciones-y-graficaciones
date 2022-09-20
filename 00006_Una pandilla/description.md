@@ -7,7 +7,7 @@
 Por ejemplo, si tuviéramos nuestra hipotética tabla de multas y queremos _agrupar según patentes y calcular la sumatoria de infracciones_, lo escribiríamos así:    
 
 ```python
-> multas.groupby("patente")["infraccion"].sum()
+ム multas.groupby("patente")["infraccion"].sum()
 patente
 ab16    500
 hz15    100
@@ -18,22 +18,22 @@ Name: infraccion, dtype: int64
 
 De igual forma, así se verían las otras agregaciones que mencionamos:
 
-```pandas
-> multas.groupby("patente")["infraccion"].mean()
+```python
+ム multas.groupby("patente")["infraccion"].mean()
 patente
 ab16    166.666667
 hz15    100.000000
 mm12    150.000000
 xy40    175.000000
 Name: infraccion, dtype: float64
-> multas.groupby("patente")["infraccion"].median()
+ム multas.groupby("patente")["infraccion"].median()
 patente
 ab16    200.0
 hz15    100.0
 mm12    150.0
 xy40    175.0
 Name: infraccion, dtype: float64
-> multas.groupby("patente")["infraccion"].count()
+ム multas.groupby("patente")["infraccion"].count()
 patente
 ab16    3
 hz15    1
@@ -41,5 +41,6 @@ mm12    1
 xy40    2
 Name: infraccion, dtype: int64
 ```
+
 
 > 🔙  Hagamos un `flashback` y volvamos a nuestros cines. Escribí en la consola la expresión que permite calcular la sumatoria de pantallas por tipo de gestión. Ya dejamos cargado el `DataFrame` `cines`. 
