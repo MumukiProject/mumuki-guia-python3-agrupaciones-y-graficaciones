@@ -13,12 +13,12 @@ choices:
   value: 'No'
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Sí, es posible hacerlo usando `cines.value_counts("tipo_gestion")`
+  value: Sí, es posible hacerlo usando `cines.value_counts("sector")`
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Sí, es posible hacerlo usando `cines["Pantallas"].sum()`
+  value: Sí, es posible hacerlo usando `cines["screens"].sum()`
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Sí, es posible hacerlo usando `cines.value_counts("tipo_gestion").sum()`
+  value: Sí, es posible hacerlo usando `cines.value_counts("sector").sum()`
   checked: false
 name: "¡Agrúpense un poco!"

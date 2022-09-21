@@ -1,6 +1,6 @@
 Lamentablemente, no siempre contaremos con información en el preciso formato en el que la necesitamos 🤷. Ya sea para comprenderla mejor en tablas o gráficamente, en general terminaremos tomando un lote de datos que _más o menos_ se ajuste a lo que estamos buscando, y luego lo adaptaremos a nuestras necesidades :person_juggling:.
 
-Por ejemplo, si estamos estudiando la distribución el tipo de gestión (pública o privada) de los cines de Argentina  :movie_camera:, probablemente no encontraremos un lote de datos que contenga exactamente esa información, sino más bien algo como éste que ya trabajamos previamente:
+Por ejemplo, si estamos estudiando la distribución del tipo de gestión (es decir, si es del sector público o privado) de los cines de Argentina  :movie_camera:, probablemente no encontraremos un lote de datos que contenga exactamente esa información, sino más bien algo como éste que ya trabajamos previamente:
 
 ```python
 cines = pd.read_csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vRSa9oM9fC-QlT7VOeGhZQtrWnlNSTsk3U8DWGTOXUWtPH6u9o5O5eZ0kTg8mFTwAn9vMdGRK7o2SPB/pub?gid=969960562&single=true&output=csv")
@@ -18,8 +18,8 @@ cines.head(5)
 
 Pero, ¿cómo sería nuestra tabla ideal? 🤔 Debería tener dos columnas...
  
- * el tipo de gestión: una columna categórica (pública provincial, pública municipal, privada comercial,  etc)
- * la cantidad de pantallas de pantallas de cine de cada gestión: una columna numérica que, por cada fila
+ * el tipo de gestión (`sector`): una columna categórica (pública provincial, pública municipal, privada comercial,  etc)
+ * la cantidad de pantallas de pantallas de cine de cada gestión (`screens`): una columna numérica con cada uno de los totales de pantallas.
  
 ... y verse aproximadamente así:
 
