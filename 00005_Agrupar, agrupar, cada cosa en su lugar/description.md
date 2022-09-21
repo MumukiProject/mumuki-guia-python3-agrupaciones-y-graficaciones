@@ -37,4 +37,4 @@ Si quisiéramos saber cuál es el valor total de infracciones de cada patente, d
 
 Con este ejemplo acabamos de ver, paso a paso, qué significa _agrupar según patentes y calcular la sumatoria de infracciones_. Pero cuando agrupemos podremos según una cierta columna, podremos luego usar cualquier otra agregación.
 
-> Si ahora quisiéramos saber el valor promedio de las multas que le corresponden a cada patente, ¿qué agrupación deberíamos hacer?
+> Si ahora quisiéramos saber el **valor promedio** de las multas que le corresponden a cada patente, ¿qué agrupación deberíamos hacer?
