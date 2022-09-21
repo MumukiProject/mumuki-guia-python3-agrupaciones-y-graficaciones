@@ -1,4 +1,4 @@
-Lamentablemente, no siempre contaremos con información en el preciso formato en el que la necesitamos 🤷. Ya sea para comprenderla mejor en tablas o gráficamente, en general terminaremos tomando un lote de datos que más o menos_ se ajuste a lo que estamos buscando, y luego lo adaptaremos a nuestras necesidades.
+Lamentablemente, no siempre contaremos con información en el preciso formato en el que la necesitamos 🤷. Ya sea para comprenderla mejor en tablas o gráficamente, en general terminaremos tomando un lote de datos que _más o menos_ se ajuste a lo que estamos buscando, y luego lo adaptaremos a nuestras necesidades.
 
 Por ejemplo, si estamos estudiando la distribución el tipo de gestión (pública o privada) de los cines de Argentina, probablemente no encontraremos un lote de datos que contenga exactamente esa información, sino más bien algo como ésto:
 
