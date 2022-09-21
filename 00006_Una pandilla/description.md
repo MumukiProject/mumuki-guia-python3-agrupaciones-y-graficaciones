@@ -4,7 +4,7 @@
 <tabla>.groupby(<columna_segun_la_que_agrupar>)[<columna_a_agregar>].<agregacion>()
 ```
 
-Por ejemplo, si tuviéramos nuestra hipotética tabla de multas y queremos _agrupar según patentes y calcular la sumatoria de infracciones_, lo escribiríamos así:    
+Por ejemplo, si tuviéramos nuestra hipotética tabla de multas y quisiéramos _agrupar según patentes y calcular la sumatoria de infracciones_, lo escribiríamos así:    
 
 ```python
 ム multas.groupby("patente")["infraccion"].sum()
