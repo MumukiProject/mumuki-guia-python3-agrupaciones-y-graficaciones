@@ -10,19 +10,19 @@ teacher_info: ''
 manual_evaluation: false
 choices:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: El desempleo no varía a lo largo de los diferente años
+  value: El nivel de empleo no varía a lo largo de los diferente años
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Las mujeres presentan siempre una mayor tasa de desempleo que los hombres
+  value: Las mujeres presentan siempre una menor tasa de empleo que los hombres
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Las mujeres presentan siempre una menor tasa de desempleo que los hombres
+  value: Las mujeres presentan siempre una mayor tasa de empleo que los hombres
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Las mujeres presentan siempre la misma tasa de desempleo que los hombres
+  value: Las mujeres presentan siempre la misma tasa de empleo que los hombres
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Las mujeres presentan a veces mayores tasas de desempleo que los hombres
-    y otras veces, menores
+  value: Las mujeres presentan a veces mayores tasas de empleo que los hombres y otras
+    veces, menores
   checked: false
 name: Una tabla no dice nada
