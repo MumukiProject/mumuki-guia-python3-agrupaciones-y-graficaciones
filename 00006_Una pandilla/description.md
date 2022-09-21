@@ -43,4 +43,4 @@ Name: infraccion, dtype: int64
 ```
 
 
-> 🔙  Hagamos un `flashback` y volvamos a nuestros cines. Escribí en la consola la expresión que permite calcular la sumatoria de pantallas por tipo de gestión. Ya dejamos cargado el `DataFrame` `cines`. 
+> 🔙  Hagamos un _flashback_ y volvamos a nuestros cines :movie_camera:. Escribí en tu cuaderno una expresión que permite calcular la sumatoria de pantallas por tipo de gestión y asignala a `pantallas_por_sector`. 
