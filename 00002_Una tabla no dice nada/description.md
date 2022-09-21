@@ -20,6 +20,6 @@ Los datos, además, están discriminados por género, es decir, que en lugar de 
 > :mag: ¡Analicemos los datos! Escribí el siguiente código en tu cuaderno y respondé cuáles afirmaciones son verdaderas:
 >
 > ```python
-> empleo.plot.line(x="anio")
+> empleo.plot.line(x="year")
 > ```
 >
