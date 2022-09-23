@@ -2,7 +2,7 @@ Para graficar, definitivamente es muy conveniente que `groupby` devuelva un `Ser
 
 De hecho, cuando empezamos a analizar nuestros datos de cines, comentamos que nuestra _tabla_ ideal se vería así: 
 
-||tipo_gestion|Pantallas|
+||sector|screens|
 |---|---|---|
 |0|Privado comercial|879|
 |1|Público municipal|57|
@@ -15,7 +15,7 @@ De hecho, cuando empezamos a analizar nuestros datos de cines, comentamos que nu
 📰 La buena noticia es que es que esto es fácil de lograr, tan sólo agregando el parámetro `as_index=False` a `groupby`:
 
 ```python
-ム cines.groupby("tipo_gestion", as_index=False).Pantallas.sum()
+ム cines.groupby("sector", as_index=False).screens.sum()
 ```
 
 ¡Y listo :tada:! Ahora tendremos a disposición todas las operaciones que vimos (y que veremos más adelante). 
