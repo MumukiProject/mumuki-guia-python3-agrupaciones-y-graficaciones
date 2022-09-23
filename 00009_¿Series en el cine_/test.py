@@ -4,6 +4,9 @@ class Test(unittest.TestCase):
     self.assertEquals(type(provincias_con_cines_grandes), pd.Series)
     
   def test_genera_el_series_correcto(self):
-    self.assertEquals(provincias_con_cines_grandes.to_dict(), {
-        'Santa Fe': 584.0, 'Buenos Aires': 1036.0, 'San Juan': 1071.0
-    })
+    self.assertEquals(provincias_con_cines_grandes.to_dict(), [
+         {'province': 'Buenos Aires', 'seats': 5180},
+         {'province': 'Ciudad Autónoma de Buenos Aires', 'seats': 306},
+         {'province': 'Salta', 'seats': 354},
+         {'province': 'San Juan', 'seats': 1071},
+         {'province': 'Santa Fe', 'seats': 584}])
