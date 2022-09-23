@@ -4,7 +4,7 @@ class Test(unittest.TestCase):
     self.assertEquals(type(butacas_por_provincia), pd.DataFrame)
     
   def test_genera_el_series_correcto(self):
-    self.assertEquals(butacas_por_provincia.to_dict(), [
+    self.assertEquals(butacas_por_provincia.to_dict("records"), [
          {'province': 'Buenos Aires', 'seats': 5180},
          {'province': 'Ciudad Autónoma de Buenos Aires', 'seats': 306},
          {'province': 'Salta', 'seats': 354},
