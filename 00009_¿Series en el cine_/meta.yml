@@ -2,7 +2,7 @@
 locale: es
 tags: []
 layout: input_bottom
-editor: code
+editor: external
 type: problem
 extra_visible: false
 teacher_info: ''
