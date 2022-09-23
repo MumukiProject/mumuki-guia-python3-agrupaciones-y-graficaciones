@@ -1,7 +1,7 @@
 ¿Y cómo hacemos para crear agrupaciones con `pandas`? Para ello contamos con `groupby` (literalmente, _agrupar según_ en inglés), una operación de `DataFrame`s que se usa así:
 
-```
-<tabla>.groupby(<columna_segun_la_que_agrupar>)[<columna_a_agregar>].<agregacion>()
+```python
+tabla.groupby(columna_segun_la_que_agrupar)[columna_a_agregar].agregacion()
 ```
 
 Por ejemplo, si tuviéramos nuestra hipotética tabla de multas y quisiéramos _agrupar según patentes y calcular la sumatoria de infracciones_, lo escribiríamos así:    
@@ -43,4 +43,4 @@ Name: infraccion, dtype: int64
 ```
 
 
-> 🔙  Hagamos un _flashback_ y volvamos a nuestros cines :movie_camera:. Escribí en tu cuaderno una expresión que permite calcular la sumatoria de pantallas por tipo de gestión y asignala a `pantallas_por_sector`. 
+> 🔙  Hagamos un _flashback_ y volvamos a nuestros cines :movie_camera:. Escribí en tu cuaderno una expresión que permite calcular la sumatoria de pantallas por tipo de gestión y asignala a `pantallas_por_sector`.
