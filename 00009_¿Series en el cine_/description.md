@@ -15,7 +15,7 @@ De hecho, cuando empezamos a analizar nuestros datos de cines, comentamos que nu
 📰 La buena noticia es que es que esto es fácil de lograr, tan sólo agregando el parámetro `as_index=False` a `groupby`:
 
 ```python
-ム cines.groupby("sector", as_index=False).screens.sum()
+ム cines.groupby("sector", as_index=False)["screens"].sum()
 ```
 
 ¡Y listo :tada:! Ahora tendremos a disposición todas las operaciones que vimos (y que veremos más adelante). 
