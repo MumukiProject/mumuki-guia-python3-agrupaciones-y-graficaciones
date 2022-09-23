@@ -12,8 +12,8 @@
 > Probá los siguientes gráficos en tu cuaderno:
 >
 > * `cines.groupby("sector")["screens"].sum().plot.pie()`
-> * `cines.groupby("sector")["screens"].sum().plot.sort_values().pie()`
-> * `cines.groupby("sector")["seats"].sum().plot.sort_values().pie()`
-> * `cines.value_counts("sector").plot.sort_values().pie()`
+> * `cines.groupby("sector")["screens"].sum().sort_values().plot.pie() `
+> * `cines.groupby("sector")["seats"].sum().sort_values().plot.pie()`
+> * `cines.value_counts("sector").sort_values().plot.pie()`
 >
 > ¿Qué conclusiones podés sacar?
