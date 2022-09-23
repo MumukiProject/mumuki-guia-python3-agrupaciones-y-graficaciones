@@ -9,11 +9,11 @@
 
 <img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-python3-agrupaciones-y-graficaciones/master/assets/cinemas_sector_barh_1663908367802.png" alt="cinemas_sector_barh_1663908367802.png" width="auto" height="auto">
 
-> Cargá en un nuevo cuaderno el `DataFrame` de cines con el que venimos trabajando desde https://... y probá los siguientes gráficos:
+> Probá los siguientes gráficos en tu cuaderno:
 >
-> `cines.groupby("sector")["screens"].sum().plot.pie()`
-> `cines.groupby("sector")["screens"].sum().plot.sort_values().pie()`
-> `cines.groupby("sector")["seats"].sum().plot.sort_values().pie()`
-> `cines.value_counts("sector").plot.sort_values().pie()`
+> * `cines.groupby("sector")["screens"].sum().plot.pie()`
+> * `cines.groupby("sector")["screens"].sum().plot.sort_values().pie()`
+> * `cines.groupby("sector")["seats"].sum().plot.sort_values().pie()`
+> * `cines.value_counts("sector").plot.sort_values().pie()`
 >
 > ¿Qué conclusiones podés sacar?
