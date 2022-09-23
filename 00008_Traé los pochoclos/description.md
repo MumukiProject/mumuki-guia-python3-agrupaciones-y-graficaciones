@@ -4,7 +4,7 @@
 ```python
 # barh es una variación de del gráfico de barras que ya vimos,
 # que presenta disposición horizontal
-> cines.groupby("sector")["screens"].sum().plot.barh()
+ム cines.groupby("sector")["screens"].sum().plot.barh()
 ```
 
 <img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-python3-agrupaciones-y-graficaciones/master/assets/cinemas_sector_barh_1663908367802.png" alt="cinemas_sector_barh_1663908367802.png" width="auto" height="auto">
