@@ -34,5 +34,5 @@ Pero, ¿cómo sería nuestra tabla ideal? 🤔 Debería tener dos columnas...
 |6|Otros|1|
 
 
-> ¿Es posible construir esta tabla usando **únicamente** lo que vimos hasta ahora?
+> Cargá en tu cuaderno la tabla anterior y observala detenidamente 🔎. ¿Es posible construir esta tabla usando **únicamente** lo que vimos hasta ahora?
 
