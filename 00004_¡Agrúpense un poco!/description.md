@@ -19,7 +19,7 @@ cines.head(5)
 Pero, ¿cómo sería nuestra tabla ideal? 🤔 Debería tener dos columnas...
  
  * el tipo de gestión (`sector`): una columna categórica (pública provincial, pública municipal, privada comercial,  etc)
- * la cantidad de pantallas de pantallas de cine de cada gestión (`screens`): una columna numérica con cada uno de los totales de pantallas.
+ * la cantidad de pantallas de cine de cada gestión (`screens`): una columna numérica con cada uno de los totales de pantallas.
  
 ... y verse aproximadamente así:
 
