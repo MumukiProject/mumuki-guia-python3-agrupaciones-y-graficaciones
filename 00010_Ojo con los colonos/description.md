@@ -35,7 +35,7 @@ En su lugar, construiremos nuestros grupos teniendo en cuenta a todas las column
  
 Como vemos, cuando en lugar de especificar un nombre de columnas, pasamos como parámetro una lista de nombres, los datos se agrupan según todas ellas y el resultado es una tabla con más de dos columnas.
  
-> ¡Este no es el único problema! En este dataset encontraremos que hay dos ciudades llamadas "Colón", una en Buenos Aires y otra en Entre Ríos:
+> ¡Este no es el único problema! En este dataset encontraremos que hay dos ciudades llamadas `"Colón"`, una en Buenos Aires y otra en Entre Ríos:
 >
 > ||loc_code|category|province|department|city|name|
 > |---|---|---|---|---|---|---|
