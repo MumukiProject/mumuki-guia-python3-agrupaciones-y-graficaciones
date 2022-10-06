@@ -48,11 +48,11 @@ Como vemos, cuando en lugar de especificar un nombre de columnas, pasamos como p
 
 
 <style>
-blockquote .text-box .table {
-  width: inherit;
-  max-width: inherit;
+
+blockquote .table {
   background: white;
   border-radius: 5px;
   margin: 9px 0;
 }
+
 </style>
