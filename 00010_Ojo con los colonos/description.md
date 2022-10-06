@@ -1,6 +1,6 @@
-Lamentablemente, los departamentos y localidades de un país difícilmente son únicas :facepalm:, Por ejemplo, en este dataset hay 11 Departamentos llamados "Capital". 
+Lamentablemente, los departamentos y localidades de un país difícilmente son únicas :facepalm:, Por ejemplo, en este dataset hay 11 departamentos llamados   `"Capital"`.
 
-||Cod_Loc|Categoría|Provincia|Departamento|Localidad|Nombre|
+||loc_code|category|province|department|city|name|
 |---|---|---|---|---|---|---|
 |0|10049030|Salas de cine|Catamarca|Capital|Catamarca|Cinemacenter
 |(..)|
@@ -12,15 +12,14 @@ Lamentablemente, los departamentos y localidades de un país difícilmente son �
 |(..)|
 
 
+Cuando suceden estas situaciones, no podremos agrupar despreocupadamente según una sola columna, porque terminaremos mezclando datos accidentalmente 🙅. Por ejemplo, en esta situación, habríamos sumado las butacas de departamentos que se llaman igual pero nada tienen que ver entre sí :crazy_face:.
 
-Cuando suceden estas situaciones, no podremos agrupar despreocupadamente según una sola columna, porque terminaremos mezclando datos accidentalmente 🙅. Por ejemplo, en esta situación, habríamos sumado las butacas de departamentos que se llaman igual pero nada tienen que ver entre sí :crazy_face:. 
-
-En su lugar, construiremos nuestros grupos teniendo en cuenta a todas las columnas que sean necesarias para evitar estas ambigüedades, de la siguiente forma: 
+En su lugar, construiremos nuestros grupos teniendo en cuenta a todas las columnas que sean necesarias para evitar estas ambigüedades, de la siguiente forma:
 
 ```python
-ム cines.groupby(["Provincia", "Departamento"], as_index=False)["Butacas"].sum()
+ム cines.groupby(["province", "department"], as_index=False)["seats"].sum()
 ```
-||Provincia |Departamento |Butacas|
+||province |department |seats|
 |---|---|---|---|
 |0 |Buenos Aires |9 de julio |90
 |1 |Buenos Aires |Adolfo Gonzales Chaves |250
@@ -34,15 +33,15 @@ En su lugar, construiremos nuestros grupos teniendo en cuenta a todas las column
 |151 |Tucumán |Tafi Viejo |830
 |152 |Tucumán |Yerba Buena |2045
  
-Como vemos, cuando en lugar de especificar un nombre de columnas, pasamos como parámetro una lista de nombres, los datos se agrupan según todas ellas y el resultado es una tabla con más de dos columnas. 
+Como vemos, cuando en lugar de especificar un nombre de columnas, pasamos como parámetro una lista de nombres, los datos se agrupan según todas ellas y el resultado es una tabla con más de dos columnas.
  
-> ¡Este no es el único problema! En este dataset encontraremos que hay dos ciudades llamadas "Colón", una en Buenos Aires y otra en Entre Ríos: 
-> 
-> ||Cod_Loc|Categoría|Provincia|Departamento|Localidad|Nombre|
+> ¡Este no es el único problema! En este dataset encontraremos que hay dos ciudades llamadas "Colón", una en Buenos Aires y otra en Entre Ríos:
+>
+> ||loc_code|category|province|department|city|name|
 > |---|---|---|---|---|---|---|
 > |(...)|
 > |9|30008020|Salas de cine|Entre Ríos|Colon|Colón|Starlight
 > |(...)|
 > |293|6175010|Salas de cine|Buenos Aires|Colon|Colón|Cine Teatro Colon
 >
-> Creá un nuevo `DataFrame` que tenga las butacas totales por localidad, y guardarlo en una variable `butacas_por_localidad` 
+> Creá un nuevo `DataFrame` que tenga las butacas totales por localidad, y guardarlo en una variable `butacas_por_localidad`
