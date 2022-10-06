@@ -4,5 +4,5 @@ class Test(unittest.TestCase):
     self.assertEquals(type(proporcion_cines_comeriales_provinciales), pd.DataFrame)
     
   def test_genera_el_DataFrame_correcto(self):
-    indexadas = proporcion_cines_comeriales_provinciales.set_index("province")
+    indexados = proporcion_cines_comeriales_provinciales.set_index("province")
     self.assertTrue(len(proporcion_cines_comeriales_provinciales) == 4, "debe tener el tamaño correcto")    
