@@ -11,4 +11,9 @@ class Test(unittest.TestCase):
     self.assertTrue(indexados.loc["Santa Fe", "sector"] == 1, "debe tener el valor correcto para Santa Fe")
     
   def test_genera_las_columnas_correctas(self):  
-    self.assertEquals(list(proporcion_cines_comeriales_provinciales.columns), ['province', 'sector'])    
+    self.assertEquals(list(proporcion_cines_comeriales_provinciales.columns), ['province', 'sector'])   
+    
+
+  def test_esta_ordenado_de_menor_a_mayor(self):  
+    self.assertEquals(proporcion_cines_comeriales_provinciales["sector"].iloc[0] == 0, "el primer elemento debe ser el mínimo")   
+    
