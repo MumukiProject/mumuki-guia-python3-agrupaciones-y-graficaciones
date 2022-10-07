@@ -59,4 +59,4 @@ def contar_centros_culturales(nombres):
  return len([nombre for nombre in nombres if "centro cultural" in nombre.lower()])
 ``` 
 
-> :first_place: ¡Ahora te toca a vos! Construí una tabla `proporcion_cines_comeriales_provinciales` que contenga, para cada provincia, la proporción entre 0 y 1 de cines de gestión `"Privado comercial"`, ordenada según esta proporción de mayor a menor. 
+> :first_place: ¡Ahora te toca a vos! Construí una tabla `proporcion_cines_comeriales_provinciales` que contenga, para cada provincia, la proporción entre 0 y 1 de cines de gestión `"Privado comercial"`, ordenada según esta proporción de menor a mayor. 

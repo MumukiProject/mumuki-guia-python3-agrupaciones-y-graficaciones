@@ -2,10 +2,10 @@ La tabla debe verse de la siguiente forma:
 
 ||province|sector|
 |---|---|---|
-|8|Formosa|0.500000|
 |13|Misiones|0.500000|
+|8|Formosa|0.500000|
 |9|Jujuy|0.500000|
-|3|Chubut|0.666666|
+|3|Chubut|0.555556|
 |21|Santiago del Estero|0.600000|
 |(...)|
 
