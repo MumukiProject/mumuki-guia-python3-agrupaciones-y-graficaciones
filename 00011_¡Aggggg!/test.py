@@ -15,5 +15,5 @@ class Test(unittest.TestCase):
     
 
   def test_esta_ordenado_de_menor_a_mayor(self):  
-    self.assertEquals(proporcion_cines_comeriales_provinciales["sector"].iloc[0] == 0, "el primer elemento debe ser el mínimo")   
+    self.assertTrue(proporcion_cines_comeriales_provinciales["sector"].iloc[0] == 0, "el primer elemento debe ser el mínimo")   
     
