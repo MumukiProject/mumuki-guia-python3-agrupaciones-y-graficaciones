@@ -9,7 +9,7 @@
         expected: San Isidro
         ignore_case: true
         ignore_whitespace: true
-- name: 'Cines hay en Santa Fe en planta altas'
+- name: 'Número de cines en Santa Fe en planta altas'
   keys:
     hfloor:
       equal: 1
