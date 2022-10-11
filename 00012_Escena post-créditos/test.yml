@@ -1,7 +1,7 @@
 - name: 'Segunda localidad con más pantallas totales'
   keys:
     sndscreens:
-      match: [Cc][óo]rdoba
+      match: "[Cc][óo]rdoba"
 - name: 'Segunda localidad con más pantallas totales'
   keys:
     larger:
