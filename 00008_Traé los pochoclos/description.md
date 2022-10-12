@@ -2,7 +2,7 @@
 
 
 ```python
-# barh es una variación de del gráfico de barras que ya vimos,
+# barh es una variación del gráfico de barras que ya vimos,
 # que presenta disposición horizontal
 ム cines.groupby("sector")["screens"].sum().plot.barh()
 ```
