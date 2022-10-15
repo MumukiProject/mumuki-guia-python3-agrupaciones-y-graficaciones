@@ -12,5 +12,8 @@
 - name: 'Número de cines en Santa Fe en planta altas'
   keys:
     hfloor:
-      equal: 4
+      equal: 
+        expected: 'province,floor\nBuenos Aires,5\nSanta Fe,4\nCórdoba,2\nSanta Cruz,1\nMendoza,1\nTucumán,1\nChubut,1\nCiudad Autónoma de Buenos Aires,1\nRío Negro,0\nTierra del Fuego,0\nSantiago del Estero,0\nChaco,0\nSan Luis,0\nSan Juan,0\nSalta,0\nCorrientes,0\nMisiones,0\nCatamarca,0\nLa Rioja,0\nLa Pampa,0\nJujuy,0\nFormosa,0\nEntre Ríos,0\nNeuquén,0\n'
+        multiline: true
+        whitespace_lenient: true
                         
