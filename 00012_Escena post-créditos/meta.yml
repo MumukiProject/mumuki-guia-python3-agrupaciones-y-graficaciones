@@ -6,7 +6,13 @@ editor: free_form
 type: problem
 extra_visible: false
 language: text
-teacher_info: ''
+teacher_info: "Este ejercicio podría ser resuelto de dos formas completamente diferentes.
+  Una es la esperada, usando `groupby`: \n\n\n```python\nprint(cines.groupby(\"province\",
+  as_index=False).agg({\n    \"floor\": lambda xs: len([x for x in xs if x.lower().startswith(\"piso\")
+  or x == 'Planta Alta']) \n}).sort_values(\"floor\", ascending=False).to_csv(index=False))\n```\n\nPero
+  hay otra que se podría hacer usando filtros (que se ven más adelante): \n\n```python\ncines[(cines[\"province\"]
+  ==  \"Santa Fe\") & (cines[\"floor\"].str.startswith(\"Piso\") | cines[\"floor\"].str.startswith(\"piso\")
+  | (cines[\"floor\"] == \"Planta Alta\"))]\n```"
 manual_evaluation: false
 choices: []
 name: Escena post-créditos

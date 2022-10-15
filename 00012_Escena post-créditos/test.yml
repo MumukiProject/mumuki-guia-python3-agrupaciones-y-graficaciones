@@ -12,5 +12,5 @@
 - name: 'Número de cines en Santa Fe en planta altas'
   keys:
     hfloor:
-      equal: 1
+      equal: 4
                         
