@@ -1,0 +1,1 @@
+¡Felicitaciones! En esta lección aprendiste a agrupar y graficar lotes de datos, y cómo estas herramientas nos permiten entender mejor la información con la que contamos. :glasses: 
