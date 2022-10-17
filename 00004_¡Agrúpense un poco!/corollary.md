@@ -1,4 +1,4 @@
-Si elegiste alguna de las otras opciones, ¡tiene sentido! Para poder resolver este problema, vamos a tener que _agrupar_ la tabla de cines por `tipo_de_gestión` y luego calcular la sumatoria de las `pantallas`. Y esto se parece bastante a hacer un `value_counts`....
+Si elegiste alguna de las otras opciones, ¡tiene sentido! Para poder resolver este problema, vamos a tener que _agrupar_ la tabla de cines por `sector` y luego calcular la sumatoria de las `screens`. Y esto se parece bastante a hacer un `value_counts`....
  
 ```python
 ム cines.value_counts("sector")
@@ -20,6 +20,6 @@ dtype: int64
 329
  ```
 
-Pero lamentablemente no estamos obteniendo el resultado esperado, porque estamos obteniendo la **suma total** de **todas** las pantallas, en lugar de tener la suma de pantallas por cada `tipo_gestion` :disappointed:.
+Pero lamentablemente no estamos obteniendo el resultado esperado, porque estamos obteniendo la **suma total** de **todas** las pantallas, en lugar de tener la suma de pantallas por cada `sector` :disappointed:.
  
 ¿Y cómo hacemos entonces? :thinking: ¡Acompañános a averiguarlo!
