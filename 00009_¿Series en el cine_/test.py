@@ -1,6 +1,6 @@
 class Test(unittest.TestCase):
 
-  def test_pantallas_por_sector_es_un_series(self):
+  def test_butacas_por_provincia_es_un_series(self):
     self.assertEquals(type(butacas_por_provincia), pd.DataFrame)
     
   def test_genera_el_series_correcto(self):

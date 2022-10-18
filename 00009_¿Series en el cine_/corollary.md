@@ -2,9 +2,9 @@
 
 ```python
 # ¿total de butacas por departamento?
-cines.groupby("Departamento", as_index=False)["Butacas"].sum()
+cines.groupby("department", as_index=False)["seats"].sum()
 # ¿total de butacas por localidad?
-cines.groupby("Localidad", as_index=False)["Butacas"].sum()
+cines.groupby("city", as_index=False)["seats"].sum()
 ```
 
 :timer: Tomate un momento para reflexionar sobre ésto y nos vemos en el siguiente ejercicio. 
