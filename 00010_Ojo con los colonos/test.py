@@ -5,7 +5,7 @@ class Test(unittest.TestCase):
     
   def test_genera_el_DataFrame_correcto(self):
     indexadas = butacas_por_localidad.set_index("city")
-    self.assertTrue(len(butacas_por_localidad) == 2, "debe tener el tamaño correcto")
+    self.assertTrue(len(butacas_por_localidad) == 11, "debe tener el tamaño correcto")
     self.assertTrue(indexadas.loc["Bragado", "seats"] == 750, "Tiene la cantidad correcta de Bragado")
     self.assertTrue(indexadas.loc["Salta", "seats"] == 354, "Tiene la cantidad correcta de Salta")
     self.assertTrue(indexadas.loc["Pilar", "seats"] == 1407, "Tiene la cantidad correcta de Pilar")
