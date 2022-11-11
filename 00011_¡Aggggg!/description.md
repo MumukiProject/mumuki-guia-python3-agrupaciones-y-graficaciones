@@ -1,4 +1,4 @@
-No, ¡nos estamos quejando! 🤬 Sólo queríamos mostrarte otra operación útil a la hora de hacer agregaciones: `agg` 😅. 
+No, ¡no nos estamos quejando! 🤬 Sólo queríamos mostrarte otra operación útil a la hora de hacer agregaciones: `agg` 😅. 
 
 ```python
 cines.groupby("province", as_index=False).agg({
