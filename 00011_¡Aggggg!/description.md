@@ -79,8 +79,7 @@ Luego, `agg` invocará internamente esta función, pasandolo los valores de cada
 1
 ```
 
-... y así sabrá que el valor final de la agregación es `1`. Luego repetirá el proceso con cada una de las demás provincias...
-
+... y así sabrá que el valor final de la agregación de `Catamarca` es `1`. Luego repetirá el proceso con cada una de las demás provincias...
 
 
 ```python
