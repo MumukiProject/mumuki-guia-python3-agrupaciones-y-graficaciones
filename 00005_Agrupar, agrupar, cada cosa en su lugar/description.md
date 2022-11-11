@@ -1,4 +1,4 @@
-¿De qué se tratan entonces las _agrupaciones_? Cuando agrupemos según una columna `A`, estaremos juntando todas las filas que tengan el mismo valor en dicha columna columna `A`, y luego aplicaremos una _agregación_ sobre todos los valores de una columna `B` que hayan caído en cada grupo.
+¿De qué se tratan entonces las _agrupaciones_? Cuando agrupemos según una columna `A`, estaremos juntando todas las filas que tengan el mismo valor en dicha columna `A`, y luego aplicaremos una _agregación_ sobre todos los valores de una columna `B` que hayan caído en cada grupo.
 
 ¿Cómo, cómo...? Bueno, quizás sea más fácil verlo con un ejemplo 😅. Supongamos la siguiente tabla con patentes 🚗 y los montos de sus infracciones de tránsito ⛔:
 
