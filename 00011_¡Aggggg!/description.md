@@ -31,4 +31,5 @@ cines.groupby("province", as_index=False).agg({
 # si te molesta que la columna se llame name, ya lo veremos más adelante...
 ```
  
+> TODO: agrupar por por provincia y sector y ordenar
 
