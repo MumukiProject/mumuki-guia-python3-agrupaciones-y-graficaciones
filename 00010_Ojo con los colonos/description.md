@@ -44,7 +44,7 @@ Como vemos, cuando en lugar de especificar un nombre de columnas, pasamos como p
 > |(...)|
 > |293|6175010|Salas de cine|Buenos Aires|Colon|Colón|Cine Teatro Colon
 >
-> Teniendo esto en cuenta, creá un nuevo `DataFrame` que tenga las butacas totales por localidad (`city`), y guardarlo en una variable `butacas_por_localidad`
+> :seat: Teniendo esto en cuenta, creá un nuevo `DataFrame` que tenga las butacas totales por localidad (`city`), y guardarlo en una variable `butacas_por_localidad`. 
 
 
 <style>
