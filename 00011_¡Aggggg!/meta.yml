@@ -5,12 +5,7 @@ layout: input_bottom
 editor: external
 type: problem
 extra_visible: false
-teacher_info: "Este es un ejercicio difícil, porque hay que pensar cómo definir la
-  función auxiliar (o lambda). Una solución podría ser la siguiente: \n\n\n```python\n%%solution
-  \n\ndef proporcion_privados(sectors):\n  return len([sector for sector in sectors
-  if sector == \"Privado comercial\"]) / len(sectors)\n\nproporcion_cines_comeriales_provinciales
-  = cines.groupby(\"province\", as_index=False).agg({\n    \"sector\": proporcion_privados\n}).sort_values(\"sector\")
-  \n\nproporcion_cines_comeriales_provinciales\n```"
+teacher_info: ''
 manual_evaluation: false
 choices: []
 name: "¡Aggggg!"
