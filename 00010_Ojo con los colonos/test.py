@@ -11,4 +11,4 @@ class Test(unittest.TestCase):
     self.assertTrue(indexadas.loc["Pilar", "seats"] == 1407, "Tiene la cantidad correcta de Pilar")
     
   def test_genera_las_columnas_correctas(self):  
-    self.assertEquals(list(butacas_por_localidad.columns), ['city', 'seats'])
+    self.assertEquals(set(butacas_por_localidad.columns), {'province', 'department', 'city', 'seats'})
