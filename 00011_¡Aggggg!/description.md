@@ -28,7 +28,7 @@ cines.groupby("province", as_index=False).agg({
    "screens": "sum",
    "seats": "mean"
 })
-# si te molesta que la columna se llame nombre, ya lo veremos más adelante...
+# si te molesta que la columna se llame name, ya lo veremos más adelante...
 ```
  
 
