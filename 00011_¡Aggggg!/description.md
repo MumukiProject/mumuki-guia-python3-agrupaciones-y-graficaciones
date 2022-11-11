@@ -81,12 +81,6 @@ Luego, `agg` invocará internamente esta función, pasandolo los valores de cada
 
 ... y así sabrá que el valor final de la agregación de `Catamarca` es `1`. Luego repetirá el proceso con cada una de las demás provincias...
 
-
-```python
-# el código de agg hará aproximadamente esto 
-ム contar_centros_culturales(['Cinemacenter', 'Centro Cultural San Agustín', 'Cinemacenter', 'Cine Teatro Catamarca'])
-1
-
 ```python
 # valores de Corrientes
 ム contar_centros_culturales(['Los Cines De La Costa', 'Espacio Incaa Guido Miranda', 'Cinemacenter', 'Cinemacenter'])
