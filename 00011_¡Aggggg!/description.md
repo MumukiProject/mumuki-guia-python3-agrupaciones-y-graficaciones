@@ -66,6 +66,7 @@ def contar_centros_culturales(nombres):
 De hecho, incluso podemos usar listas por comprensión:
 
 ```python
+# versión alternativa
 def contar_centros_culturales(nombres):
  return len([nombre for nombre in nombres if "centro cultural" in nombre.lower()])
 ```
