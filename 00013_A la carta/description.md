@@ -38,7 +38,7 @@ def contar_centros_culturales(nombres):
  return len([nombre for nombre in nombres if "centro cultural" in nombre.lower()])
 ```
 
-Luego, `agg` invocará internamente esta función, pasandolo los valores de cada grupo para calcular el resultado. Por ejemplo, cuando evalúe a las filas de la provincia `Catamarca`, le pasará todos los nombres de cine...
+Luego, `agg` invocará internamente esta función, pasandolo los valores de la columna agregada de cada grupo para calcular el resultado. Por ejemplo, cuando evalúe a las filas de la provincia `Catamarca`, le pasará todos los nombres de sus cines...
 
 
 ```python
@@ -59,6 +59,6 @@ Luego, `agg` invocará internamente esta función, pasandolo los valores de cada
 # etc...
 ```
 
-...y así completará el `DataFrame` resultante. 
+...y de esta forma completará el `DataFrame` resultante. 
 
 > :first_place: ¡Ahora te toca a vos! Construí una tabla `proporcion_cines_comeriales_provinciales` que contenga, para cada provincia, la proporción entre 0 y 1 de cines de gestión `"Privado comercial"`, ordenada según esta proporción de menor a mayor. 
