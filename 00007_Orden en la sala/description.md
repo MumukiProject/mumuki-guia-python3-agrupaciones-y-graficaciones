@@ -27,7 +27,7 @@ Name: screens, dtype: int64
 
 :eyes: Notá que aunque `sort_values` devuelve un `DataFrame` al aplicarlo a un `DataFrame`,  si se aplica sobre un `Series`, devuelve… ¡otro `Series`! Además, a diferencia de cuando ordenamos un `DataFrame`, en este caso no deberemos especificar el nombre de la columna que vamos a ordenar. Al fin y al cabo, ¡ahora estamos trabajando con una sola columna! 😛
 
-> ¡Ahora te toca a vos! Necesitamos un informe con las  provincias con mayor promedio de butacas, que se vea aproximadamente así: 
+> ¡Ahora te toca a vos! Necesitamos un informe con las **tres** provincias con mayor promedio de butacas, que se vea aproximadamente así: 
 > 
 > ```python
 > province
