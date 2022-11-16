@@ -2,7 +2,7 @@
   keys:
     sndscreens:
       match: "[Cc][óo]rdoba"
-- name: 'Segunda localidad con más pantallas totales'
+- name: 'Departamento con más butacas en promedio'
   keys:
     larger:
       equal: 
