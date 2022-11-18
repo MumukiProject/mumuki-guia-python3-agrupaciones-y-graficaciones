@@ -1,19 +1,19 @@
 class Test(unittest.TestCase):
 
-  def test_proporcion_cines_comeriales_provinciales_es_un_DataFrame(self):
-    self.assertEquals(type(proporcion_cines_comeriales_provinciales), pd.DataFrame)
+  def test_medianas_por_provincia_es_un_DataFrame(self):
+    self.assertEquals(type(medianas_por_provincia), pd.DataFrame)
     
   def test_genera_el_DataFrame_correcto(self):
-    indexados = proporcion_cines_comeriales_provinciales.set_index("province")
-    self.assertTrue(len(proporcion_cines_comeriales_provinciales) == 5, "debe tener el tamaño correcto")    
+    indexados = medianas_por_provincia.set_index("province")
+    self.assertTrue(len(medianas_por_provincia) == 5, "debe tener el tamaño correcto")    
     self.assertTrue(indexados.loc["San Juan", "sector"] == 1, "debe tener el valor correcto para San Juan")
     self.assertTrue(indexados.loc["Buenos Aires", "sector"] == 0.8, "debe tener el valor correcto para Buenos Aires")
     self.assertTrue(indexados.loc["Santa Fe", "sector"] == 1, "debe tener el valor correcto para Santa Fe")
     
   def test_genera_las_columnas_correctas(self):  
-    self.assertEquals(list(proporcion_cines_comeriales_provinciales.columns), ['province', 'sector'])   
+    self.assertEquals(set(medianas_por_provincia.columns), {'province', 'screens', 'seats'})   
     
 
-  def test_esta_ordenado_de_menor_a_mayor(self):  
-    self.assertTrue(proporcion_cines_comeriales_provinciales["sector"].iloc[0] == 0, "el primer elemento debe ser el mínimo")   
+  def test_esta_ordenado_de_la_a_a_la_z(self):  
+    self.assertTrue(medianas_por_provincia["province"].iloc[0] == 0, "el primer elemento debe ser el mínimo")   
     

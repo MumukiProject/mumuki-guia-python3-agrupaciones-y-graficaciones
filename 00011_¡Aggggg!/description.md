@@ -31,6 +31,6 @@ cines.groupby("province", as_index=False).agg({
 # si te molesta que la columna se llame name, ya lo veremos más adelante...
 ```
  
-> :octagonal_sign: ¡Alto! Veamos si se va entendiendo: generá una tabla que contenga, por cada provincia, la mediana de la cantidad de pantallas y butacas. La tabla debe estar ordenada alfabéticamente, de la A a la Z. 
+> :octagonal_sign: ¡Alto! Veamos si se va entendiendo: generá una tabla `medianas_por_provincia` que contenga, por cada provincia, la mediana de la cantidad de pantallas y butacas. La tabla debe estar ordenada alfabéticamente, de la A a la Z. 
 
 
