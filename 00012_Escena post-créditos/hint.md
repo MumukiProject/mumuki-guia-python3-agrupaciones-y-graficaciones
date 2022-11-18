@@ -27,7 +27,7 @@ Córdoba,20799
 ...
 ```
 
-... pero si en cambio usamos `as_index=False`, la columna de índice incluida en el CSV será redundante: 
+... pero si en cambio usamos `as_index=False`, nos sobrará :expressionless: una columna: 
 
 ```python
 ム print(cines.groupby("province", as_index=False)["seats"].sum().to_csv()) 
