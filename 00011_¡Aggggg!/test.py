@@ -6,9 +6,9 @@ class Test(unittest.TestCase):
   def test_genera_el_DataFrame_correcto(self):
     indexados = medianas_por_provincia.set_index("province")
     self.assertTrue(len(medianas_por_provincia) == 5, "debe tener el tamaño correcto")    
-    self.assertTrue(indexados.loc["San Juan", "sector"] == 1, "debe tener el valor correcto para San Juan")
-    self.assertTrue(indexados.loc["Buenos Aires", "sector"] == 0.8, "debe tener el valor correcto para Buenos Aires")
-    self.assertTrue(indexados.loc["Santa Fe", "sector"] == 1, "debe tener el valor correcto para Santa Fe")
+    self.assertTrue(indexados.loc["San Juan", "screens"] == 6, "debe tener el valor correcto de pantallas para San Juan")
+    self.assertTrue(indexados.loc["Buenos Aires", "seats"] == 750, "debe tener el valor correcto de butacas para Buenos Aires")
+    self.assertTrue(indexados.loc["Santa Fe", "seats"] == 584, "debe tener el valor correcto de butacas para Santa Fe")
     
   def test_genera_las_columnas_correctas(self):  
     self.assertEquals(set(medianas_por_provincia.columns), {'province', 'screens', 'seats'})   
