@@ -1,0 +1,1 @@
+Al igual que las agregaciones anteriores, `agg` devuelve otro `DataFrame`, por lo que podemos ordenar su resultado usando `sort_values`.
