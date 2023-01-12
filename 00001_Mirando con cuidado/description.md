@@ -7,7 +7,7 @@ empleo
 
 Cuando lo hayas hecho, observá con detenimiento los datos.
 
-> :thinking: ¿Qué información contiene este lote de datos? ¿Cómo están segmentados? ¿Qué podemos observar? ¿Notás algún patrón o tendencia en los datos?  
+> :thinking: ¿Qué información contiene este lote de datos? ¿Cómo están discriminados? ¿Qué podemos observar? ¿Notás algún patrón o tendencia en los datos?  
 >
 > :timer: Tomate unos minutos y luego continuá al siguiente ejercicio.
 
