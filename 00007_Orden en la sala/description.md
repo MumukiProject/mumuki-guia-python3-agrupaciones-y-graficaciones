@@ -1,4 +1,4 @@
-Como habrás notado, al agrupar obtenemos un `Series` con los valores agregados, pero desordenados (1, 879, 4, etc). En su lugar, `groupby` ordena las columnas según los valores de los grupos (`Otro`, `Privado comercial`, `Privado comunitario`, etc):
+Como habrás notado, al agrupar obtenemos un `Series` con los valores agregados, pero desordenados (1, 879, 4, etc). En su lugar, `groupby` ordena las columnas según los valores de los grupos (en caso, lexicográficamente: `Otro`, `Privado comercial`, `Privado comunitario`, etc):
 
 ```python
 ム  cines.groupby("sector")["screens"].sum()
