@@ -61,4 +61,4 @@ Luego, `agg` invocará internamente esta función, pasandolo los valores de la c
 
 ...y de esta forma completará el `DataFrame` resultante. 
 
-> :first_place: ¡Ahora te toca a vos! Construí una tabla `proporcion_cines_comeriales_provinciales` que contenga, para cada provincia, la proporción entre 0 y 1 de cines de gestión `"Privado comercial"`, ordenada según esta proporción de menor a mayor. 
+> :first_place: ¡Ahora te toca a vos! Construí una tabla `proporcion_cines_comerciales_provinciales` que contenga, para cada provincia, la proporción entre 0 y 1 de cines de gestión `"Privado comercial"`, ordenada según esta proporción de menor a mayor. 
