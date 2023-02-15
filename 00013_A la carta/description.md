@@ -43,7 +43,7 @@ Luego, `agg` invocará internamente esta función, pasandolo los valores de la c
 
 ```python
 # el código de agg hará aproximadamente esto 
-ム contar_centros_culturales(['Cinemacenter', 'Centro Cultural San Agustín', 'Cinemacenter', 'Cine Teatro Catamarca'])
+ムcontar_centros_culturales(['Cinemacenter', 'Centro Cultural San Agustín', 'Cinemacenter', 'Cine Teatro Catamarca'])
 1
 ```
 
@@ -51,10 +51,10 @@ Luego, `agg` invocará internamente esta función, pasandolo los valores de la c
 
 ```python
 # valores de Corrientes
-ム contar_centros_culturales(['Los Cines De La Costa', 'Espacio Incaa Guido Miranda', 'Cinemacenter', 'Cinemacenter'])
+ムcontar_centros_culturales(['Los Cines De La Costa', 'Espacio Incaa Guido Miranda', 'Cinemacenter', 'Cinemacenter'])
 0
 # valores de Córdoba
-ム contar_centros_culturales(['Sudcinemas', 'Dinosaurio Mall 60 Cuadras',  'Cine Teatro Coop Luz Y Fuerza', ...]
+ムcontar_centros_culturales(['Sudcinemas', 'Dinosaurio Mall 60 Cuadras',  'Cine Teatro Coop Luz Y Fuerza', ...]
 2
 # etc...
 ```

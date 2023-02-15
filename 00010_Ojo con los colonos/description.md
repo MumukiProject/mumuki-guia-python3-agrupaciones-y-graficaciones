@@ -17,7 +17,7 @@ Cuando suceden estas situaciones, no podremos agrupar despreocupadamente según 
 En su lugar, construiremos nuestros grupos teniendo en cuenta a todas las columnas que sean necesarias para evitar estas ambigüedades, de la siguiente forma:
 
 ```python
-ム cines.groupby(["province", "department"], as_index=False)["seats"].sum()
+ムcines.groupby(["province", "department"], as_index=False)["seats"].sum()
 ```
 ||province |department |seats|
 |---|---|---|---|

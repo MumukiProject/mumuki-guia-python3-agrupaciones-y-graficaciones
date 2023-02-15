@@ -1,7 +1,7 @@
 Si elegiste alguna de las otras opciones, ¡tiene sentido! Para poder resolver este problema, vamos a tener que _agrupar_ la tabla de cines por `sector` y luego calcular la sumatoria de las `screens`. Y esto se parece bastante a hacer un `value_counts`....
  
 ```python
-ム cines.value_counts("sector")
+ムcines.value_counts("sector")
 sector
 Privado comercial        243
 Público municipal         56
@@ -16,7 +16,7 @@ dtype: int64
 ...combinado con `sum()`:
 
 ```python 
-ム  cines.value_counts("sector").sum()
+ム cines.value_counts("sector").sum()
 329
  ```
 
