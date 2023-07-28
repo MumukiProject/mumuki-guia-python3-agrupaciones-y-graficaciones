@@ -1,5 +1,4 @@
 ---
 expectations:
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: "*"
+- binding: "*"
   inspection: Except:DoesTypeTest

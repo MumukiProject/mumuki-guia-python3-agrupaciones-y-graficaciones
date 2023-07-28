@@ -8,5 +8,6 @@ extra_visible: false
 language: text
 teacher_info: ''
 manual_evaluation: false
+progressive_expectations: false
 choices: []
 name: Escena post-créditos

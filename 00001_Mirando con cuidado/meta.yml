@@ -1,11 +1,12 @@
 ---
 locale: es
 tags: []
-layout: :input_bottom
+layout: input_bottom
 editor: 0
 type: reading
 extra_visible: false
 teacher_info: ''
 manual_evaluation: false
+progressive_expectations: false
 choices: []
 name: Mirando con cuidado
